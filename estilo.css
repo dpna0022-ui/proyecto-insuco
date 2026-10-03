@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfcfb;
+    color: #4a4035;
+    line-height: 1.6;
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+header {
+    background-color: #ffffff;
+    color: #4a4035;
+}
+
+.encabezado {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 0;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+.titulo h1 {
+    font-size: 30px;
+    margin-bottom: 3px;
+    color: #5b4636;
+}
+
+
+.titulo p {
+    font-size: 15px;
+    color: #6d5a48;
+}
+
+
+/* =========================
+   MENÚ
+========================= */
+
+nav {
+    background-color: #c8b69c;
+}
+
+
+.menu {
+    width: 85%;
+    max-width: 1200px;
+
+    margin: auto;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+
+.menu li a {
+    display: block;
+
+    color: #40352c;
+
+    text-decoration: none;
+
+    padding: 15px 20px;
+
+    transition: 0.3s;
+}
+
+
+.menu li a:hover {
+    background-color: #b49c7d;
+    color: white;
+}
+
+/* =========================
+   PORTADA
+========================= */
+.portada {
+    background-color: #eee2d0;
+
+    min-height: 420px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+}
+
+
+.portada-contenido {
+    width: 90%;
+    max-width: 800px;
+}
+
+
+.portada h2 {
+    color: #5b4636;
+
+    font-size: 36px;
+
+    margin-bottom: 20px;
+}
+
+
+.portada p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: inline-block;
+    background-color: #8b7355;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #6f5942;
+}
+
+/* =========================
+   CONTENIDO
+========================= */
+
+.informacion,
+.contenido {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+.informacion h2,
+.contenido h2 {
+    color: #5b4636;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.informacion p,
+.contenido p {
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.seccion {
+    background-color: #faf4ea;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow:
+        0 3px 10px rgba(91, 70, 54, 0.12);
+}
+
+
+.seccion h2 {
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjetas {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+
+.tarjeta {
+    background-color: #f4ead9;
+    width: 280px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:0 3px 10px rgba(91, 70, 54, 0.12);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tarjeta h3 {
+    color: #6b523b;
+
+    margin-bottom: 15px;
+}
+
+
+.tarjeta p {
+    margin-bottom: 20px;
+}
+
+
+.tarjeta a {
+    color: #8b7355;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin-top: auto;
+}
+
+
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   LABORATORIOS
+========================= */
+
+.introduccion {
+    margin-bottom: 30px;
+}
+
+
+.laboratorio {
+    background-color: #fffaf2;
+
+    margin-bottom: 30px;
+
+    padding: 25px;
+
+    border-left: 6px solid #a88c68;
+
+    border-radius: 5px;
+
+    box-shadow:
+        0 3px 10px rgba(91, 70, 54, 0.12);
+
+    display: flex;
+
+    gap: 25px;
+
+    align-items: flex-start;
+}
+
+
+/* IMAGEN DEL LABORATORIO */
+
+.imagen-laboratorio {
+    width: 40%;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    border-radius: 8px;
+}
+
+
+.imagen-laboratorio img {
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 8px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* ZOOM DE LAS IMÁGENES */
+
+.imagen-laboratorio:hover img {
+    transform: scale(1.08);
+}
+
+
+.info-laboratorio {
+    flex: 1;
+}
+
+
+.info-laboratorio h3 {
+    color: #6b523b;
+
+    margin-bottom: 15px;
+
+    font-size: 23px;
+}
+
+
+/* =========================
+   HORARIOS
+========================= */
+
+.horario {
+    background-color: #eee2d0;
+
+    padding: 15px;
+
+    margin-top: 20px;
+
+    border-radius: 5px;
+}
+
+
+.horario h4 {
+    color: #6b523b;
+
+    margin-bottom: 10px;
+}
+
+
+.horario ul {
+    padding-left: 20px;
+}
+
+
+.horario li {
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   SOBRE MÍ
+========================= */
+
+.sobre-mi {
+    background-color: #fffaf2;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 10px rgba(91, 70, 54, 0.12);
+
+    margin-bottom: 30px;
+}
+
+
+.perfil {
+    display: flex;
+
+    align-items: center;
+
+    gap: 35px;
+
+    margin-top: 25px;
+}
+
+
+/* FOTO CUADRADA */
+
+.foto-perfil {
+    width: 230px;
+    height: 230px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow:0 3px 10px rgba(91, 70, 54, 0.12);
+}
+
+.foto-perfil img {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* ZOOM DE FOTO DE PERFIL */
+
+.foto-perfil:hover img {
+    transform: scale(1.08);
+}
+
+/* =========================
+   CONTACTO
+========================= */
+
+.contacto {
+    background-color: #fffaf2;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 10px rgba(91, 70, 54, 0.12);
+
+    margin-bottom: 30px;
+}
+
+
+.contacto h2 {
+    margin-bottom: 15px;
+}
+
+
+form {
+    margin-top: 25px;
+}
+
+
+.campo {
+    margin-bottom: 20px;
+}
+
+
+.campo label {
+    display: block;
+
+    color: #6b523b;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+.campo input,
+.campo textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #cbbda8;
+
+    border-radius: 5px;
+
+    background-color: #fffdf8;
+
+    color: #4a4035;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+}
+
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: none;
+
+    border-color: #a88c68;
+}
+
+
+/* =========================
+   DATOS DE CONTACTO
+========================= */
+
+.datos-contacto {
+    background-color: #eee2d0;
+
+    padding: 25px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+
+.datos-contacto h2 {
+    color: #6b523b;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+========================= */
+
+footer {
+    background-color: #a88c68;
+    color: #40352c;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* =========================
+   ESPECIALIDADES
+========================= */
+
+.especialidades {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.especialidades h2 {
+    color: #5b4636;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.texto-especialidades {
+    margin-bottom: 30px;
+}
+
+
+/* TARJETA DE ESPECIALIDAD */
+
+.especialidad {
+    background-color: #fffaf2;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(91, 70, 54, 0.12);
+    border-left: 6px solid #a88c68;
+}
+
+/* IMAGEN */
+
+.imagen-especialidad {
+    width: 180px;
+    height: 160px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+
+.imagen-especialidad img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* ZOOM */
+
+.imagen-especialidad:hover img {
+    transform: scale(1.08);
+}
+
+/* INFORMACIÓN */
+
+.info-especialidad {
+    flex: 1;
+}
+
+.info-especialidad h3 {
+    color: #6b523b;
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+}
+
+.info-especialidad p {
+    margin-bottom: 15px;
+}
+
+
+/* BOTÓN */
+
+.boton-especialidad {
+    display: inline-block;
+
+    background-color: #8b7355;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 9px 18px;
+
+    border-radius: 5px;
+
+    transition: background-color 0.3s;
+}
+
+
+.boton-especialidad:hover {
+    background-color: #6f5942;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+    .especialidad {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+
+    .imagen-especialidad {
+        width: 100%;
+
+        height: 230px;
+    }
+
+
+    .info-especialidad {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .especialidades {
+        width: 92%;
+
+        padding: 30px 0;
+    }
+
+
+    .especialidades h2 {
+        font-size: 24px;
+    }
+
+
+    .especialidad {
+        padding: 18px;
+    }
+
+
+    .imagen-especialidad {
+        height: 200px;
+    }
+
+
+    .info-especialidad h3 {
+        font-size: 20px;
+    }
+
+}
