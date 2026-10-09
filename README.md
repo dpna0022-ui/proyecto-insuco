@@ -1,7 +1,8 @@
-
+<!DOCTYPE html>
+<html lang="es">
 <link rel="stylesheet" href="estilo.css">
 <img src="fotos/images%20(1).jpg" alt="Logo INSUCO Valparaíso">
-# proyecto-insuco
+<h1># proyecto-insuco</h1>
 Este es un proyecto sobre un sitio web del Instituto Superior de comercio Francisco Araya Bennett que contiene información sobre cada laboratorio que se usa en la especialidad de programación, tanto como en otras especialidades que tambien los usan.
 
 1. index.html (Inicio):
@@ -29,3 +30,4 @@ Esta carpeta guarda el logo del liceo en todas las paginas y las imágenes utili
 Contiene las fotografías que se muestran en la página de laboratorios.
 
 En resumen: Este sitio web del INSUCO Valparaíso busca organizar y presentar información del establecimiento en diferentes páginas. Cada archivo HTML cumple una función específica, mientras que el archivo CSS se encarga del diseño y las imágenes complementan el contenido. Además, el menú facilita la navegación y el diseño adaptable permite utilizar el sitio desde distintos dispositivos.
+</html>
