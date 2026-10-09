@@ -1,4 +1,4 @@
-# proyecto-insuco
+<img src="fotos/images%20(1).jpg" alt="Logo INSUCO Valparaíso"># proyecto-insuco
 Este es un proyecto sobre un sitio web del Instituto Superior de comercio Francisco Araya Bennett que contiene información sobre cada laboratorio que se usa en la especialidad de programación, tanto como en otras especialidades que tambien los usan.
 
 1. index.html (Inicio):
