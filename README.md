@@ -17,7 +17,6 @@ Permite a los visitantes revisar los datos de contacto del establecimiento y com
 Muestra información sobre los cinco laboratorios de computación, incluyendo imágenes, descripciones y horarios de disponibilidad según los datos registrados.
 
 6. css/style.css (Diseño del sitio):
-Obj: 
 Contiene los estilos que se aplican a las páginas, como los colores beige, los tamaños de texto, los menús, las imágenes y la distribución de los elementos. También permite que el sitio se adapte a celulares y computadores.
 
 8. Carpeta img/ (Imágenes):
