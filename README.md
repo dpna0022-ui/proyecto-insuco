@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <link rel="stylesheet" href="estilo.css">
-<img src="fotos/images%20(1).jpg" alt="Logo INSUCO Valparaíso">
+<img src="[fotos/images%20(1).jpg](https://www.google.com/imgres?q=logo%20insuco&imgurl=https%3A%2F%2Ftechnovation.cl%2Fwp-content%2Fuploads%2F2021%2F03%2FLogo-INSUCO-V4.png&imgrefurl=https%3A%2F%2Ftechnovation.cl%2Fcolegios-inscritos%2Flogo-insuco-v4%2F&docid=652zwE-k9tHgKM&tbnid=f2irkixKGRbgpM&vet=12ahUKEwits5SK7ayXAxWjupUCHW8xHVQQnPAOegQINBAA..i&w=200&h=200&hcb=2&ved=2ahUKEwits5SK7ayXAxWjupUCHW8xHVQQnPAOegQINBAA)" alt="Logo INSUCO Valparaíso">
 <h1># proyecto-insuco</h1>
 Este es un proyecto sobre un sitio web del Instituto Superior de comercio Francisco Araya Bennett que contiene información sobre cada laboratorio que se usa en la especialidad de programación, tanto como en otras especialidades que tambien los usan.
 
